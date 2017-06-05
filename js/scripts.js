@@ -15,6 +15,7 @@ maleNew.push(maleInput[1]);
 maleNew.push(maleInput[0]);
 maleNew.push(maleInput[2]);
 
+
 /*$("div#output").text(maleInput);
   /*var female1 = $("input#actor1").val();
   $("div#output").text(female1);
@@ -28,7 +29,10 @@ maleNew.push(maleInput[2]);
   $("div#output").text(female5);
   */
 
-alert(maleNew);
+//alert(maleNew);
+$("ul").append("<li>"+ maleNew[0] + "</li>");
+$("ul").append("<li>"+ maleNew[1] + "</li>");
+$("ul").append("<li>"+ maleNew[2] + "</li>");
 
   });
 });
