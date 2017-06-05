@@ -10,7 +10,12 @@ $(document).ready(function() {
 /*$("div#output").text(male1 + ", " + male2 + ", " + male3 + ", " + male4 + ", " + male5);*/
 
 var maleInput = [male1, male2, male3, male4, male5];
-$("div#output").text(maleInput);
+var maleNew = [];
+maleNew.push(maleInput[1]);
+maleNew.push(maleInput[0]);
+maleNew.push(maleInput[2]);
+
+/*$("div#output").text(maleInput);
   /*var female1 = $("input#actor1").val();
   $("div#output").text(female1);
   var female2 = $("input#actor1").val();
@@ -22,5 +27,8 @@ $("div#output").text(maleInput);
   var female5 = $("input#actor1").val();
   $("div#output").text(female5);
   */
+
+alert(maleNew);
+
   });
 });
